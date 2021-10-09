@@ -15,6 +15,12 @@ public class Card {
    private int value;//1-13
 
    public static final String [] SUITS = {"Hearts", "Diamonds", "Spades", "Clubs"};
+      
+    public Card(String suit, int value) {
+	    super();
+	    this.suit = suit;
+	    this.value = value;
+    }
     /**
      * @return the suit
      */
