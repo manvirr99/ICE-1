@@ -11,6 +11,8 @@ public class CardTrick {
        Card obj = new Card("hearts", 13);
        System.out.println(obj.getSuit());
        System.out.println(obj.getValue());
+
+       Card obj2 = new Card("spades", 12);
     }
     
 }
